@@ -1,0 +1,106 @@
+# ModelSim/QuestaSim simulation files
+*.wlf
+transcript
+modelsim.ini
+*.log
+*.db
+work/
+*.vstf
+
+# Synplify Pro synthesis files
+*.srr
+*.srs
+*.srd
+*.srm
+*.sxr
+*.htm
+*.map
+*.fse
+*.sap
+synlog/
+syntmp/
+synwork/
+*.rptmap
+*.szr
+*.xck
+*.tlg
+backup/
+
+# FPGA vendor specific files
+*.qpf
+*.qsf
+*.qws
+*.rpt
+*.summary
+*.done
+*.jdi
+*.pof
+*.sof
+*.cdf
+*.pin
+*.fit.*
+
+# General ignore patterns
+# Compiled Object files
+*.o
+*.obj
+*.elf
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.bak
+*.swp
+*#
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Report files
+*.areasrr
+rpt_*
+
+# Generated constraint files
+AutoConstraint_*
+
+# Cache and temporary directories
+_temp/
+_tempmsg/
+_dpi/
+dm/
+coreip/
+
+# Lock files
+*__lock
