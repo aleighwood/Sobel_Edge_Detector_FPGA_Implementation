@@ -1,0 +1,6 @@
+edge_detect.fifo_out_inst work fifo 0 1
+edge_detect.sobel_inst work sobel 0 1
+edge_detect.grayscale_top_inst.fifo_out_inst work fifo 0 1
+edge_detect.grayscale_top_inst.fifo_in_inst work fifo 0 1
+edge_detect.grayscale_top_inst.grayscale_inst work grayscale 0 1
+edge_detect.grayscale_top_inst work grayscale_top 0 1

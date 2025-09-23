@@ -1,0 +1,142 @@
+
+                             Synplify (R) Premier 
+
+                Version O-2018.09-SP1 for RHEL64 - Nov 27, 2018 
+
+                    Copyright (c) 1988 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Starting:    /vol/synopsys/fpga/O-2018.09-SP1/linux_a_64/mbin/synplify
+Install:     /vol/synopsys/fpga/O-2018.09-SP1
+Hostname:    riddler.ece.northwestern.edu
+Date:        Sun Feb  9 22:56:27 2025
+Version:     O-2018.09-SP1
+
+Arguments:   -product synplify_premier
+ProductType: synplify_premier
+
+License checkout: synplifypremierdp
+License: synplifypremierdp from server synopsyslm.ece.northwestern.edu (Using premium license)
+Licensed Vendor: All FPGA
+License Option: ident
+
+
+
+/home/cli9009/ce_387/Assignments/HW2/submission/proj_2.prjlog file: "/home/cli9009/ce_387/Assignments/HW2/submission/rev_4/sobel.srr"
+Running: rev_4 in foreground
+
+Running proj_2|rev_4
+
+Running Flow: compile (Compile) on proj_2|rev_4
+# Sun Feb  9 22:57:23 2025
+
+Running Flow: compile_flow (Compile Process) on proj_2|rev_4
+# Sun Feb  9 22:57:23 2025
+License granted for 4 parallel jobs
+
+Running: compiler (Compile Input) on proj_2|rev_4
+# Sun Feb  9 22:57:23 2025
+Copied /home/cli9009/ce_387/Assignments/HW2/submission/rev_4/synwork/sobel_comp.srs to /home/cli9009/ce_387/Assignments/HW2/submission/rev_4/sobel.srs
+compiler exited with errors
+Job failed on: proj_2|rev_4
+
+Job: "compiler" terminated with error status: 2
+See log file: "/home/cli9009/ce_387/Assignments/HW2/submission/rev_4/synlog/sobel_compiler.srr"
+# Sun Feb  9 22:57:27 2025
+
+Return Code: 2
+Run Time:00h:00m:04s
+Complete: Compile Process on proj_2|rev_4
+Complete: Compile on proj_2|rev_4
+Complete: Logic Synthesis on proj_2|rev_4
+0Removed file: /home/cli9009/ce_387/Assignments/HW4/edge_detect/sv/edge_detect_tb.sv
+Removed file: /home/cli9009/ce_387/Assignments/HW4/edge_detect/sv/grayscale_tb.sv
+Copied /home/cli9009/ce_387/Assignments/HW2/submission/rev_4/sobel.srr to /home/cli9009/ce_387/Assignments/HW2/submission/rev_4/backup/sobel.srr
+log file: "/home/cli9009/ce_387/Assignments/HW2/submission/rev_4/sobel.srr"
+Running: rev_4 in foreground
+
+Running proj_2|rev_4
+
+Running Flow: compile (Compile) on proj_2|rev_4
+# Sun Feb  9 22:57:53 2025
+
+Running Flow: compile_flow (Compile Process) on proj_2|rev_4
+# Sun Feb  9 22:57:53 2025
+License granted for 4 parallel jobs
+
+Running: compiler (Compile Input) on proj_2|rev_4
+# Sun Feb  9 22:57:53 2025
+compiler exited with errors
+Job failed on: proj_2|rev_4
+
+Job: "compiler" terminated with error status: 2
+See log file: "/home/cli9009/ce_387/Assignments/HW2/submission/rev_4/synlog/sobel_compiler.srr"
+# Sun Feb  9 22:57:53 2025
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on proj_2|rev_4
+Complete: Compile on proj_2|rev_4
+Complete: Logic Synthesis on proj_2|rev_4
+2Opening object source file /home/cli9009/ce_387/Assignments/HW4/edge_detect/sv/edge_detect.sv
+log file: "/home/cli9009/ce_387/Assignments/HW4/edge_detect/syn/sobel.srr"
+Running: syn in foreground
+
+Running syn
+
+Running Flow: compile (Compile) on syn
+# Sun Feb  9 23:00:13 2025
+
+Running Flow: compile_flow (Compile Process) on syn
+# Sun Feb  9 23:00:13 2025
+License granted for 4 parallel jobs
+
+Running: compiler (Compile Input) on syn
+# Sun Feb  9 23:00:13 2025
+Copied /home/cli9009/ce_387/Assignments/HW4/edge_detect/syn/synwork/sobel_comp.srs to /home/cli9009/ce_387/Assignments/HW4/edge_detect/syn/sobel.srs
+
+compiler completed
+# Sun Feb  9 23:00:16 2025
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on syn
+# Sun Feb  9 23:00:16 2025
+
+multi_srs_gen completed
+# Sun Feb  9 23:00:16 2025
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied /home/cli9009/ce_387/Assignments/HW4/edge_detect/syn/synwork/sobel_mult.srs to /home/cli9009/ce_387/Assignments/HW4/edge_detect/syn/sobel.srs
+Complete: Compile Process on syn
+
+Running: premap (Premap) on syn
+# Sun Feb  9 23:00:16 2025
+
+premap completed with warnings
+# Sun Feb  9 23:00:17 2025
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on syn
+
+Running Flow: map (Map) on syn
+# Sun Feb  9 23:00:17 2025
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on syn
+# Sun Feb  9 23:00:17 2025
+Copied /home/cli9009/ce_387/Assignments/HW4/edge_detect/syn/synwork/sobel_m.srm to /home/cli9009/ce_387/Assignments/HW4/edge_detect/syn/sobel.srm
+
+fpga_mapper completed with warnings
+# Sun Feb  9 23:00:19 2025
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on syn
+Complete: Logic Synthesis on syn
