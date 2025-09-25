@@ -1,13 +1,13 @@
 # FPGA Project .gitignore
 
-# Only exclude these specific directories
-sim/
-source/
-sv/
-uvm/
-_dpi/
-dm/
-coreip/
+# Ignore everything by default
+*
 
-# Lock files
-*__lock
+# But keep these specific directories
+!sv/
+!source/
+!uvm/
+!sim/
+
+# Keep the .gitignore file itself
+!.gitignore
